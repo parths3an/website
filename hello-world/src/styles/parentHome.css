@@ -1,0 +1,317 @@
+/*
+This file will contain the css files
+*/
+*{
+margin: 0px;
+padding: 0px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+text-decoration-color: aliceblue;
+}
+
+.main-nav{
+float: left;
+list-style: none;
+margin-top: 30px;
+padding-left: 100px; 
+}
+
+.main-nav li{
+    display: inline-block;
+}
+.main-nav li a{
+color: rgb(255, 255, 255);
+text-decoration: none;
+padding: 5px 20px; 
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+}
+
+.main-nav li.active a
+{
+border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+border: 1px solid white;
+}
+
+.logo img
+{
+width: 200px; 
+height: auto;
+float: left;
+margin-top: 25px;
+padding-left: 15px;
+size: 300px;
+}
+
+body
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("../images/exampleBaby.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.row
+{
+    max-width: 1800px; 
+    margin: auto;
+}
+
+.userName
+{
+    float: right;
+    height: 150px;
+    margin-top: 30px;
+    padding-right: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.btn
+{
+    border-style: solid white;
+    padding-left: 5px 20px;
+    float: right;
+    height: 150px;
+    padding-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.btn signOutBtn
+{
+    border-style: solid;
+    background-color: black;
+    color: black;
+}
+
+.cotainer
+{
+    position: relative;
+
+}
+
+.upcomingJobs
+{
+    border-style: solid;
+    padding-top: 15px;
+    padding-left: 15px;
+    color: rgb(10, 10, 10);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.messageBox
+{
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    width: 210px;
+    text-decoration-color: aliceblue;
+    height: 580px;
+    width: 200px;
+    position: absolute;
+    top: 120px;
+    float: left;
+    padding-left: 28px; 
+    padding-right: 35px; 
+    padding-top: 35px; 
+    margin-left: 20px;
+    margin-right: 0px;  
+    background:rgba(255,255,255,0.722);
+}
+
+.calendarImage
+{
+ position: absolute;
+ margin-top: 25px; 
+ padding: 0px;
+ border: solid black;
+}
+
+.requestBox
+{
+    border-style: solid;
+    border-color: rgb(255, 253, 253);
+    border-width: 3px;
+    box-sizing: content-box;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 120px;
+    display: inline-block;  
+    margin: 20px 20px;  
+    background:rgba(255, 255, 255, 0.722);
+}
+
+.editReqbox
+{
+    border-style: solid;
+    border-color: rgb(255, 253, 253);
+    border-width: 3px;
+    margin-top: 5px; 
+    box-sizing: content-box;
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 200px;
+    display: inline-block;  
+    margin-right: 25px 25px;;  
+    background:rgba(255, 255, 255, 0.722);
+}
+
+
+p{
+    color: aliceblue;
+}
+
+.insideText{
+padding-bottom: 15px;
+padding-left: 30px; 
+padding-right: 10px; 
+}
+
+.rBox{
+  border-color: rgb(5, 5, 5);
+  border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    color: blueviolet;
+    margin-top: 15px;
+    margin-bottom: 5px; 
+    margin-left: 25px; 
+    margin-right: 25px; 
+}
+
+.editReqBtn
+{
+    border-color: rgb(5, 5, 5);
+    border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      border-top-right-radius: 20px;
+      color: blueviolet;
+      margin-top: 10px;
+      margin-left: 75px;
+      margin-bottom: 25px; 
+}
+.reqBtn{
+    padding: 25px 25px; 
+    color: purple;
+    font-size: 15px;
+}
+
+.editBtn{
+    padding: 35px 35px; 
+    color: purple;
+    font-size: 15px; 
+}
+
+#confirmedReq
+{
+    margin-top: 220px; 
+    margin-bottom: 20px; 
+    visibility: visible;
+}
+
+#pendingReq
+{
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    position: fixed; 
+    visibility: visible;
+}
+#confirmReq .s1
+{
+    position: relative;
+    border-style: solid purple;
+    margin-top: 2px;  
+    border: solid black;
+    padding: 5px 15px;
+    
+}
+
+#pendingReq p .s2
+{
+    position: relative;
+    border-style: solid purple;
+    margin-top: 2px;  
+    border: solid black;
+    padding: 5px 15px;
+}
+.changeBtn
+{
+    margin-bottom: 5px;      
+    padding: 5px 5px;
+    margin-top: 3px; 
+}
+.changeBtn:hover,.cancelBtn:hover,.PchangeBtn:hover,.PcancelBtn:hover
+{background-color: rgb(179, 10, 179);
+}
+
+.cancelBtn
+{
+    margin-bottom: 5px;  
+    padding: 5px 5px;
+    margin-top: 3px; 
+}
+.PchangeBtn
+{
+    margin-bottom: 5px;      
+    padding: 5px 5px;
+    margin-top: 3px; 
+}
+.PcancelBtn
+{
+    margin-bottom: 5px;      
+    padding: 5px 5px;
+    margin-top: 3px; 
+}
+
+.modal
+{
+    position: fixed;
+    z-index: 1;
+    top: 270px; 
+    left: 480px; 
+    height: 25%;
+    width: 25%;
+    overflow: auto;
+    background-color: rgba(0,0,0, 0.5);
+    text-decoration-color: white;
+    display: none;
+
+}
+.modal-content
+{
+    background-color: blueviolet;
+    margin:20%; 
+    width: 20%;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.7),0 7px 20px 0 rgba(0,0,0,0.17); 
+}
+
+.smallForm
+{
+    padding-left: 40px; 
+}
+.closeBtn{
+    color: aliceblue;
+    float: right;
+    font-size: 30px;
+    padding-right: 20px;
+    padding-top: 2px;  
+}
+.closeBtn:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+
