@@ -1,8 +1,20 @@
 import React, { Component } from 'react';
 import logo from '../../images/logo.png';
-import './navBar.css'
+import './navBar.css';
+
+
 class NavBarHome extends Component {
-  render() {
+
+  constructor(props) {
+    super();
+  }
+  render() {   
+
+  
+    function changeWin()
+    {
+      
+    }
     return (
 
       <div className="navBarHome">
@@ -14,11 +26,10 @@ class NavBarHome extends Component {
             </div>
           </a>
 
-          <a href="login-signup.html" >Sign Up</a>
+          <a href= "../loginComponents/generalForm">Sign Up</a>
+          <buttton onClick={changeWin}> signup</buttton> 
           <a href="login-signup.html" >Login</a>
         </div>
-
-
       </div>
 
     );
